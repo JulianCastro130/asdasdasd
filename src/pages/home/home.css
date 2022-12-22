@@ -1,0 +1,20 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 5px solid red;
+}
+.header{
+    grid-area: 1 / 1 / 2 / 4
+}
+.places{
+    grid-area: 2 / 1 / 4 / 3
+}
+.plans{
+    grid-area: 2 / 3 / 3 / 4
+}
+.users{
+    grid-area: 3 / 3 / 4 / 4
+}
